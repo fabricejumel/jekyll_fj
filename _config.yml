@@ -1,0 +1,28 @@
+# Jekyll Settings
+excerpt_separator: <!--more-->
+exclude: ["CNAME", "README.md", "LICENSE"]
+paginate: 5
+paginate_path: ":num"
+permalink: pretty
+sass:
+    style: :compressed
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom Variables
+analytics: 100929437
+author:
+  email: "&#109;&#97;&#98;&#101;&#114;&#103;&#101;&#114;&#54;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+  github: "fabrice jumel"
+  linkedin: "maberger"
+  name: "Mark Berger"
+  uri: "http://www.cpe.fr"
+description: "Personal website of Fabrice Jumel"
+title: "Fabrice Jumel"
+url: "http://www.cpe.fr"
+baserurl: "/startjekyll"
+url: "http://fabricejumel.github.io"
